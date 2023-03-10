@@ -1,2 +1,2 @@
 hoten=input("Nhap ho ten: ")
-print("Chao ban", hoten + "!!!")
+print("Chao ban", hoten,"!!!")
