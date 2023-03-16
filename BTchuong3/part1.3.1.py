@@ -4,12 +4,12 @@ c=float(input("c="))
 max=a
 if max<b:
     max=b
-elif max<c:
+if max<c:
     max=c
 print("SLN=",max)
 min=a
 if min>b:
     min=b
-elif min>c:
+if min>c:
     min=c
-print("SBN",min)    
+print("SBN=",min)    
