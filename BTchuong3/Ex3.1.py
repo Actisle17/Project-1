@@ -1,6 +1,6 @@
-a=int(input())
-b=int(input())
-c=int(input())
+a=int(input("a="))
+b=int(input("b="))
+c=int(input("c="))
 p=(a+b+c)/2
 import math
 if (a+b)>c and (a+c)>b and (b+c)>a:
