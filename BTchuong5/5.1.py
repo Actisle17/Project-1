@@ -8,7 +8,8 @@ def Input():
     return x,L
 def firstAndLast(L):
     new_L=[L[0],L[-1]]
-    print(new_L)
+    cach="["+",".join([str(i) for i in new_L])+"]"
+    print(cach)
     return new_L
 def Search(L,x):
     if x in L:

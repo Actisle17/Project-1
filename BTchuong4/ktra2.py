@@ -1,6 +1,7 @@
 n=int(input())
 i=0
-while i<=n:
-    t=i+1
-    print(t)
-    n=i+t
+s=0
+while s<=n:
+    i=i+1
+    s=s+i
+print(i-1)

@@ -1,0 +1,6 @@
+chuoi=input()
+phantu=chuoi.split(",")
+phantu=list(set(phantu))
+phantu.sort()
+xuli=",".join(phantu)
+print(xuli)
