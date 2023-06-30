@@ -1,3 +1,4 @@
-a=int(input('a='))
-b=int(input('b='))
-print('a+b',a+b)
+a=str(input())
+b=str(input())
+B=a.split(" ")
+print(B)
